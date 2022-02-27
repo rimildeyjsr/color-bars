@@ -1,0 +1,26 @@
+.container {
+    width: 500px;
+    height: 500px;
+}
+
+.bar-container {
+    height: 15px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin: 20px;
+    background-color: #ededed;
+    position: relative;
+}
+
+.color-bar-container {
+    width: 50%;
+    height: 15px;
+    border-radius: 8px;
+    border-right: 1px solid;
+}
+
+.percent-text {
+    position: absolute;
+    left: 41%;
+    top: -18px;
+}
